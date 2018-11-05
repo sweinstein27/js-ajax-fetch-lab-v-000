@@ -2,7 +2,7 @@ const baseURL = 'https://api.github.com';
 const user = 'sweinstein27';
 
 function getToken() {
-  const token = 'YOUR_TOKEN_HERE';
+  const token = '473948c092acf2945b0f357d8ae8c6486c89ce18';
 
   fetch('https://api.github.com/user/repos', {
     headers: {
