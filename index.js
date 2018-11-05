@@ -1,16 +1,9 @@
 const baseURL = 'https://api.github.com';
-const user = 'sweinstein27';
+const user = '<YOUR_USERNAME>';
 
 function getToken() {
-  const token = '473948c092acf2945b0f357d8ae8c6486c89ce18';
-
-  fetch('https://api.github.com/user/repos', {
-    headers: {
-      Authorization: `token ${token}`
-    }
-  })
-    .then(res => res.json())
-    .then(json => console.log(json));
+  //change to your token to run in browser, but set
+  //back to '' before committing so all tests pass
   return '';
 }
 
